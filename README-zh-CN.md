@@ -5,7 +5,7 @@
 
 English | 中文
 -|-
-[README.md](#)|[README-zh-CN.md](README-zh-CN.md)
+[README.md](README.md)|[README-zh-CN.md](README-zh-CN.md)
 
 ## 一、从 NPM 安装
 

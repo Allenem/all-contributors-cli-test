@@ -5,7 +5,7 @@ Official website: https://allcontributors.org
 
 English | 中文
 -|-
-[README.md](#)|[README-zh-CN.md](README-zh-CN.md)
+[README.md](README.md)|[README-zh-CN.md](README-zh-CN.md)
 
 ## Ⅰ.Install from NPM
 
