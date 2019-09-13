@@ -1,0 +1,36 @@
+{
+  "projectName": "all-contributors-cli_test",
+  "projectOwner": "Allenem",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md",
+    "README-zh-CN.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Allenem",
+      "name": "蒲尧",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33366355?v=4",
+      "profile": "https://github.com/Allenem",
+      "contributions": [
+        "code",
+        "doc",
+        "translation"
+      ]
+    },
+    {
+      "login": "ionicbond-lzj",
+      "name": "ionicbond-lzj",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/45113875?v=4",
+      "profile": "https://github.com/ionicbond-lzj",
+      "contributions": [
+        "test"
+      ]
+    }
+  ]
+}

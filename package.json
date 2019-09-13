@@ -1,0 +1,16 @@
+{
+  "name": "all-contributors-cli-test",
+  "version": "1.0.0",
+  "description": "Just all-contributors-cli test. Want to know more details, please visit official website: https://allcontributors.org",
+  "main": "index.js",
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "keywords": [],
+  "author": "Allenem",
+  "license": "ISC",
+  "devDependencies": {
+    "all-contributors-cli": "^6.9.0"
+  }
+}
