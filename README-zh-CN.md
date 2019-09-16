@@ -1,5 +1,5 @@
 # all-contributors-cli 测试
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 
 官方网址：https://allcontributors.org
 
@@ -46,6 +46,18 @@ yarn all-contributors generate
 
 ```
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Allenem"><img src="https://avatars1.githubusercontent.com/u/33366355?v=4" width="100px;" alt="蒲尧"/><br /><sub><b>蒲尧</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Allenem" title="Code">💻</a> <a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Allenem" title="Documentation">📖</a> <a href="#translation-Allenem" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/ionicbond-lzj"><img src="https://avatars0.githubusercontent.com/u/45113875?v=4" width="100px;" alt="ionicbond-lzj"/><br /><sub><b>ionicbond-lzj</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=ionicbond-lzj" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/Juliayao"><img src="https://avatars3.githubusercontent.com/u/55355288?v=4" width="100px;" alt="Juliayao"/><br /><sub><b>Juliayao</b></sub></a><br /><a href="#userTesting-Juliayao" title="User Testing">📓</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 ```
 &hearts; 在运行 `yarn all-contributors generate` 时，上面的代码会被自动注入贡献者 , 请删除第一个和最后一个标签之间的内容。
