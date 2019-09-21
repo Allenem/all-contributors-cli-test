@@ -1,5 +1,5 @@
 # all-contributors-cli 测试
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 
 官方网址：https://allcontributors.org
 
@@ -56,6 +56,7 @@ yarn all-contributors generate
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Saujyun"><img src="https://avatars3.githubusercontent.com/u/30119369?v=4" width="100px;" alt="Saujyun"/><br /><sub><b>Saujyun</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Saujyun" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Mi-Hang"><img src="https://avatars2.githubusercontent.com/u/28539606?v=4" width="100px;" alt="George"/><br /><sub><b>George</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Mi-Hang" title="Code">💻</a></td>
   </tr>
 </table>
 
