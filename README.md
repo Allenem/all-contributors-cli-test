@@ -38,6 +38,30 @@ all-contributors add <username> <contribution>
 yarn all-contributors generate
 ```
 
+## Ⅳ.Update your Contributing documentation
+
+Consider updating your `.all-contributorsrc` or similar with steps on how your contributors can add themselves. 
+
+## Ⅴ.Optionally add shortcut scripts to your package.json
+
+You can optionally add shortcuts to your commands in your package.json scripts field.
+
+For example:
+```json
+{
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  }
+}
+```
+To allow shortcuts such as
+```bash
+yarn contributors:add jfmengels doc
+```
+
+## Ⅵ.Attention
+
 ### NOTE1：Before generate
 
 Use generate to read the contributors list from your .all-contributorsrc file and update the contributor tables specified by the files key.
@@ -48,7 +72,7 @@ Please note the command must be able to find the following tags in those files, 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 ```
-&hearts; The code above will be modified as runing `yarn all-contributors generate` , please delete contents between the first tag and the last one.
+&hearts; The code above will be modified as runing `yarn all-contributors generate` , please move contents between the first tag and the last one to the last paragraph [Contributors](#contributors-).
 
 ### NOTE2：Emoji Key ✨ (and Contribution Types)
 
@@ -109,27 +133,27 @@ Please note the command must be able to find the following tags in those files, 
 | 📹
 `video` | Videos | links to the video |
 
-## Ⅳ.Update your Contributing documentation
+### NOTE3：CLI Configuration
 
-Consider updating your `.all-contributorsrc` or similar with steps on how your contributors can add themselves. 
+ You can configure all-contributors by updating the `.all-contributorsrc` JSON file. The data used to generate the contributors list will be stored in there, and you can configure how you want `all-contributors-cli` to generate the list.
 
-## Ⅴ.Optionally add shortcut scripts to your package.json
+These are the keys you can specify:
 
-You can optionally add shortcuts to your commands in your package.json scripts field.
-
-For example:
-```json
-{
-  "scripts": {
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
-  }
-}
-```
-To allow shortcuts such as
-```bash
-yarn contributors:add jfmengels doc
-```
+| Option | Description | Example/Default |
+| --- | --- | --- |
+| `projectName` | Mandatory, name of the project. | Example: `all-contributors-cli` |
+| `projectOwner` | Mandatory, name of the user the project is hosted by. | Example: `jfmengels` |
+| `repoType` | Type of repository. Must be either `github` or `gitlab`. | Default: `github` |
+| `repoHost` | Points to the repository hostname. Change it if you use a self-hosted repository. | Default: `https://github.com` if `repoType` is `github`, and `https://gitlab.com` if `repoType` is `gitlab` |
+| `files` | Array of files to update. | Default: `['README.md']` |
+| `imageSize` | Size (in px) of the user's avatar. | Default: `100` |
+| `commit` | Auto-commit badge when adding contributors. | `true` or `false` |
+| `commitConvention` | Commit convention ([`angular`](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines), [`atom`](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages), [`ember`](https://guides.emberjs.com/v1.10.0/contributing/#toc_commits), [`eslint`](https://eslint.org/docs/1.0.0/developer-guide/contributing#step-2-make-your-changes), [`jshint`](https://jshint.com/contribute/) or [`gitmoji`](https://gitmoji.carloscuesta.me/)). | Default: `none` |
+| `contributorsPerLine` | Maximum number of columns for the contributors table. | Default: `7` |
+| `badgeTemplate` | Define your own lodash template to generate the badge. |  |
+| `contributorTemplate` | Define your own lodash template to generate the contributor. |  |
+| `types` | Specify custom symbols or link templates for contribution types. Can override the documented types. |  |
+| `contributors` | List of contributors for this project, this is updated by [all-contributors add](https://allcontributors.org/docs/en/cli/usage#all-contributors-add) |  |
 
 * * *
 

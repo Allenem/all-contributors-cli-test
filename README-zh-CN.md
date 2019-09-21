@@ -38,6 +38,30 @@ all-contributors add <username> <contribution>
 yarn all-contributors generate
 ```
 
+## 四、更新贡献者文档
+
+考虑更新 `.all-contributorsrc` 或者 重复上面相同的步骤添加贡献者。
+
+## 五、在 `package.json` 中选择性添加快捷指令
+
+你可以在 `package.json` 的 `scripts` 区域选择性添加快捷指令。
+
+例如:
+```json
+{
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  }
+}
+```
+运行如下指令
+```bash
+yarn contributors:add jfmengels doc
+```
+
+## 六、注意事项
+
 ### 注1：generate 前注意事项
 
 使用 `generate` 从 `.all-contributorsrc` 文件读取贡献者列表 `contributors` 并对指定的文件 `files` 更新贡献者表格。
@@ -48,7 +72,7 @@ yarn all-contributors generate
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 ```
-&hearts; 在运行 `yarn all-contributors generate` 时，上面的代码会被自动注入贡献者 , 请删除第一个和最后一个标签之间的内容。
+&hearts; 在运行 `yarn all-contributors generate` 时，上面的代码会被自动注入贡献者 , 请将第一个和最后一个标签之间的内容移动到文末的[Contributors](#contributors-)。
 
 ### 注2：Emoji 关键词 ✨ (和贡献种类)
 
@@ -109,28 +133,27 @@ yarn all-contributors generate
 | 📹
 `video` | 视频 | links to the video |
 
+### 注3：CLI配置
 
-## 四、更新贡献者文档
+可以通过更新 `.all-contributorsrc` JSON文件来配置 all-contributors 。 用来生成贡献者列表的数据将会存储在此文件中，同时可以随意配置 `all-contributors-cli` 来生成列表。
 
-考虑更新 `.all-contributorsrc` 或者 重复上面相同的步骤添加贡献者。
+这些是可以指定的关键词：
 
-## 五、在 `package.json` 中选择性添加快捷指令
-
-你可以在 `package.json` 的 `scripts` 区域选择性添加快捷指令。
-
-例如:
-```json
-{
-  "scripts": {
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
-  }
-}
-```
-运行如下指令
-```bash
-yarn contributors:add jfmengels doc
-```
+| 选项 | 描述 | 范例/默认 |
+| --- | --- | --- |
+| `projectName` | 必要，项目名称 | 范例：`all-contributors-cli` |
+| `projectOwner` | 必要，项目的持有用户名称 | 范例：`jfmengels` |
+| `repoType` | 仓库类型， 必须是`github`或者`gitlab` | 默认：`github` |
+| `repoHost` | 指向仓库的主机名， 如果你用自己托管的仓库请更改 | 默认：`https://github.com`如果`仓库类型`是`github`，或者`https://gitlab.com`如果`仓库类型`是`gitlab`。 |
+| `files` | 要更新文件的数组 | 默认：`['README.md']` |
+| `imageSize` | 用户头像尺寸 (以像素为单位) | 默认：`100` |
+| `commit` | 当添加贡献者时，自动提交徽章 | `true` 或者`false` |
+| `commentConvention` | Commit convention ([`angular`](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines), [`atom`](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages), [`ember`](https://guides.emberjs.com/v1.10.0/contributing/#toc_commits), [`eslint`](https://eslint.org/docs/1.0.0/developer-guide/contributing#step-2-make-your-changes), [`jshint`](https://jshint.com/contribute/) or [`gitmoji`](https://gitmoji.carloscuesta.me/)). | 默认: `none` |
+| `contributorsPerLine` | 贡献者表的最大列数 | 默认：`7` |
+| `badgeTemplate` | 定义你自己的lodash模版来生成徽章 |  |
+| `contributorTemplate` | 定义你自己的lodash模版来生成贡献者 |  |
+| `types` | 对于贡献者类型，具体说明自定义符号或者链接模版 可以覆盖记录的类型 |  |
+| `contributors` | `all-contributors add`可以用来更新此项目的贡献者列表 | |
 
 * * *
 
