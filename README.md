@@ -46,6 +46,17 @@ Please note the command must be able to find the following tags in those files, 
 
 ```
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Allenem"><img src="https://avatars1.githubusercontent.com/u/33366355?v=4" width="100px;" alt="蒲尧"/><br /><sub><b>蒲尧</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Allenem" title="Code">💻</a> <a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Allenem" title="Documentation">📖</a> <a href="#translation-Allenem" title="Translation">🌍</a></td>
+    <td align="center"><a href="http://yirongchen.com/"><img src="https://avatars3.githubusercontent.com/u/45977848?v=4" width="100px;" alt="Yirong Chen"/><br /><sub><b>Yirong Chen</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=scutcyr" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 ```
 &hearts; The code above will be modified as runing `yarn all-contributors generate` , please delete contents between the first tag and the last one.
