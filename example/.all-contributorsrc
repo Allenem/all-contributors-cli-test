@@ -1,0 +1,71 @@
+{
+  "projectName": "all-contributors-cli-test",
+  "projectOwner": "Allenem",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "contributes.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributorsPerLine": 4,
+  "contributors": [
+    {
+      "login": "Allenem",
+      "name": "蒲尧",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33366355?v=4",
+      "profile": "https://github.com/Allenem",
+      "contributions": [
+        "code",
+        "doc",
+        "translation"
+      ]
+    },
+    {
+      "login": "scutcyr",
+      "name": "Yirong Chen",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/45977848?v=4",
+      "profile": "http://yirongchen.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "icyzeroice",
+      "name": "Ice Zero",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17965578?v=4",
+      "profile": "https://gitee.com/icyzeroice",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Saujyun",
+      "name": "Saujyun",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/30119369?v=4",
+      "profile": "https://github.com/Saujyun",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Mi-Hang",
+      "name": "George",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28539606?v=4",
+      "profile": "https://github.com/Mi-Hang",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JoeDragonXII",
+      "name": "龙智浩",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44341833?v=4",
+      "profile": "https://github.com/JoeDragonXII",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}
