@@ -1,9 +1,8 @@
 # all-contributors-cli 测试
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 
 官方网址：https://allcontributors.org
-
-这是开发者(dev)分支。
 
 English | 中文
 -|-

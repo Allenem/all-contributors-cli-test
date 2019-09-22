@@ -1,9 +1,8 @@
 # all-contributors-cli test
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 
 Official website: https://allcontributors.org
-
-This is dev branch.
 
 English | 中文
 -|-
