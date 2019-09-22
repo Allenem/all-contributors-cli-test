@@ -1,4 +1,5 @@
 # all-contributors-cli 测试
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 
 官方网址：https://allcontributors.org
@@ -6,6 +7,27 @@
 English | 中文
 -|-
 [README.md](README.md)|[README-zh-CN.md](README-zh-CN.md)
+
+* * *
+
+## 贡献者 ✨
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Allenem"><img src="https://avatars1.githubusercontent.com/u/33366355?v=4" width="100px;" alt="蒲尧"/><br /><sub><b>蒲尧</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Allenem" title="Code">💻</a> <a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Allenem" title="Documentation">📖</a> <a href="#translation-Allenem" title="Translation">🌍</a> <a href="#review-Allenem" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/ionicbond-lzj"><img src="https://avatars0.githubusercontent.com/u/45113875?v=4" width="100px;" alt="ionicbond-lzj"/><br /><sub><b>ionicbond-lzj</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=ionicbond-lzj" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/Juliayao"><img src="https://avatars3.githubusercontent.com/u/55355288?v=4" width="100px;" alt="Juliayao"/><br /><sub><b>Juliayao</b></sub></a><br /><a href="#userTesting-Juliayao" title="User Testing">📓</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+* * *
 
 ## 一、从 NPM 安装
 
@@ -72,7 +94,7 @@ yarn contributors:add jfmengels doc
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 ```
-&hearts; 在运行 `yarn all-contributors generate` 时，上面的代码会被自动注入贡献者 , 请将第一个和最后一个标签之间的内容移动到文末的[Contributors](#contributors-)。
+&hearts; 我发现上面的代码如果在文中第一次出现，在运行 `yarn all-contributors generate` 时，上面的代码可能会被自动注入贡献者 , 请将第一个和最后一个标签之间的内容移动到合适的地方[Contributors](#contributors-)。
 
 ### 注2：Emoji 关键词 ✨ (和贡献种类)
 
@@ -154,22 +176,3 @@ yarn contributors:add jfmengels doc
 | `contributorTemplate` | 定义你自己的lodash模版来生成贡献者 |  |
 | `types` | 对于贡献者类型，具体说明自定义符号或者链接模版 可以覆盖记录的类型 |  |
 | `contributors` | `all-contributors add`可以用来更新此项目的贡献者列表 | |
-
-* * *
-
-## 贡献者 ✨
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Allenem"><img src="https://avatars1.githubusercontent.com/u/33366355?v=4" width="100px;" alt="蒲尧"/><br /><sub><b>蒲尧</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Allenem" title="Code">💻</a> <a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=Allenem" title="Documentation">📖</a> <a href="#translation-Allenem" title="Translation">🌍</a> <a href="#review-Allenem" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/ionicbond-lzj"><img src="https://avatars0.githubusercontent.com/u/45113875?v=4" width="100px;" alt="ionicbond-lzj"/><br /><sub><b>ionicbond-lzj</b></sub></a><br /><a href="https://github.com/Allenem/all-contributors-cli-test/commits?author=ionicbond-lzj" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/Juliayao"><img src="https://avatars3.githubusercontent.com/u/55355288?v=4" width="100px;" alt="Juliayao"/><br /><sub><b>Juliayao</b></sub></a><br /><a href="#userTesting-Juliayao" title="User Testing">📓</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
