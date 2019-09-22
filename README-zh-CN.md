@@ -176,3 +176,9 @@ yarn contributors:add jfmengels doc
 | `contributorTemplate` | 定义你自己的lodash模版来生成贡献者 |  |
 | `types` | 对于贡献者类型，具体说明自定义符号或者链接模版 可以覆盖记录的类型 |  |
 | `contributors` | `all-contributors add`可以用来更新此项目的贡献者列表 | |
+
+* * *
+
+## LICENSE
+
+[MIT](LICENSE)
