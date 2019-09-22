@@ -3,6 +3,8 @@
 
 官方网址：https://allcontributors.org
 
+这是开发者(dev)分支。
+
 English | 中文
 -|-
 [README.md](README.md)|[README-zh-CN.md](README-zh-CN.md)
